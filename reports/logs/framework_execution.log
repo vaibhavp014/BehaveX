@@ -1,0 +1,147 @@
+2025-03-21 18:11:39,192 - INFO - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-03-21 18:11:40,087 - INFO - Entering credentials: username=Admin
+2025-03-21 18:11:40,088 - INFO - Typing text 'Admin' into element with locator: ('name', 'username')
+2025-03-21 18:11:43,143 - INFO - Typing text 'admin123' into element with locator: ('name', 'password')
+2025-03-21 18:11:43,236 - INFO - Clicking element with locator: ('class name', 'orangehrm-login-button')
+2025-03-21 18:11:44,765 - INFO - Successfully entered credentials.
+2025-03-21 18:11:47,828 - INFO - Dashboard is displayed successfully.
+2025-03-21 18:11:50,076 - INFO - Browser session ended.
+2025-03-21 18:12:29,604 - INFO - Navigating to URL: httpdfs://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-03-21 18:12:29,633 - INFO - Entering credentials: username=Admin
+2025-03-21 18:12:29,633 - INFO - Typing text 'Admin' into element with locator: ('name', 'username')
+2025-03-21 18:12:39,775 - ERROR - Error typing text 'Admin' into element with locator: ('name', 'username'). Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F137FE65+26629]
+	(No symbol) [0x00007FF6F12E6030]
+	(No symbol) [0x00007FF6F117931A]
+	(No symbol) [0x00007FF6F11CF8E7]
+	(No symbol) [0x00007FF6F11CFB1C]
+	(No symbol) [0x00007FF6F12234A7]
+	(No symbol) [0x00007FF6F11F7AEF]
+	(No symbol) [0x00007FF6F1220169]
+	(No symbol) [0x00007FF6F11F7883]
+	(No symbol) [0x00007FF6F11C0550]
+	(No symbol) [0x00007FF6F11C1803]
+	GetHandleVerifier [0x00007FF6F16D72DD+3529853]
+	GetHandleVerifier [0x00007FF6F16EDA42+3621858]
+	GetHandleVerifier [0x00007FF6F16E24F3+3575443]
+	GetHandleVerifier [0x00007FF6F144B79A+860474]
+	(No symbol) [0x00007FF6F12F08AF]
+	(No symbol) [0x00007FF6F12ECBE4]
+	(No symbol) [0x00007FF6F12ECD86]
+	(No symbol) [0x00007FF6F12DC2E9]
+	BaseThreadInitThunk [0x00007FFA187DE8D7+23]
+	RtlUserThreadStart [0x00007FFA1921BF6C+44]
+
+2025-03-21 18:13:19,302 - INFO - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-03-21 18:13:27,820 - INFO - Entering credentials: username=Admin
+2025-03-21 18:13:27,821 - INFO - Typing text 'Admin' into element with locator: ('name', 'username')
+2025-03-21 18:13:29,434 - INFO - Typing text 'admin123' into element with locator: ('name', 'password')
+2025-03-21 18:13:29,553 - INFO - Clicking element with locator: ('class name', 'orangehrm-login-button')
+2025-03-21 18:13:29,637 - INFO - Successfully entered credentials.
+2025-03-21 18:13:32,715 - INFO - Dashboard is displayed successfully.
+2025-03-21 18:13:34,992 - INFO - Browser session ended.
+2025-03-21 18:22:34,154 - INFO - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-03-21 18:22:37,139 - INFO - Entering credentials: username=Admin
+2025-03-21 18:22:37,139 - INFO - Typing text 'Admin' into element with locator: ('name', 'username')
+2025-03-21 18:22:37,714 - INFO - Typing text 'admin123' into element with locator: ('name', 'password')
+2025-03-21 18:22:37,795 - INFO - Clicking element with locator: ('class name', 'orangehrm-login-button')
+2025-03-21 18:22:37,894 - INFO - Successfully entered credentials.
+2025-03-21 18:22:40,960 - INFO - Dashboard is displayed successfully.
+2025-03-21 18:22:43,243 - INFO - Browser session ended.
+2025-03-21 18:24:15,185 - INFO - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-03-21 18:24:18,858 - INFO - Entering credentials: username=Admind
+2025-03-21 18:24:18,858 - INFO - Typing text 'Admind' into element with locator: ('name', 'username')
+2025-03-21 18:24:19,437 - INFO - Typing text 'admin123' into element with locator: ('name', 'password')
+2025-03-21 18:24:19,554 - INFO - Clicking element with locator: ('class name', 'orangehrm-login-button')
+2025-03-21 18:24:19,646 - INFO - Successfully entered credentials.
+2025-03-21 18:24:22,705 - ERROR - Error verifying dashboard: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=134.0.6998.118); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F137FE65+26629]
+	(No symbol) [0x00007FF6F12E6030]
+	(No symbol) [0x00007FF6F117931A]
+	(No symbol) [0x00007FF6F11CF8E7]
+	(No symbol) [0x00007FF6F11CFB1C]
+	(No symbol) [0x00007FF6F12234A7]
+	(No symbol) [0x00007FF6F11F7AEF]
+	(No symbol) [0x00007FF6F1220169]
+	(No symbol) [0x00007FF6F11F7883]
+	(No symbol) [0x00007FF6F11C0550]
+	(No symbol) [0x00007FF6F11C1803]
+	GetHandleVerifier [0x00007FF6F16D72DD+3529853]
+	GetHandleVerifier [0x00007FF6F16EDA42+3621858]
+	GetHandleVerifier [0x00007FF6F16E24F3+3575443]
+	GetHandleVerifier [0x00007FF6F144B79A+860474]
+	(No symbol) [0x00007FF6F12F08AF]
+	(No symbol) [0x00007FF6F12ECBE4]
+	(No symbol) [0x00007FF6F12ECD86]
+	(No symbol) [0x00007FF6F12DC2E9]
+	BaseThreadInitThunk [0x00007FFA187DE8D7+23]
+	RtlUserThreadStart [0x00007FFA1921BF6C+44]
+
+2025-03-21 18:24:24,942 - INFO - Browser session ended.
+2025-03-21 18:29:27,751 - INFO - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-03-21 18:29:31,410 - INFO - Entering credentials: username=Admind
+2025-03-21 18:29:31,410 - INFO - Typing text 'Admind' into element with locator: ('name', 'username')
+2025-03-21 18:29:31,986 - INFO - Typing text 'admin123' into element with locator: ('name', 'password')
+2025-03-21 18:29:32,051 - INFO - Clicking element with locator: ('class name', 'orangehrm-login-button')
+2025-03-21 18:29:32,188 - INFO - Successfully entered credentials.
+2025-03-21 18:29:35,237 - ERROR - Error verifying dashboard: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=134.0.6998.118); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F137FE65+26629]
+	(No symbol) [0x00007FF6F12E6030]
+	(No symbol) [0x00007FF6F117931A]
+	(No symbol) [0x00007FF6F11CF8E7]
+	(No symbol) [0x00007FF6F11CFB1C]
+	(No symbol) [0x00007FF6F12234A7]
+	(No symbol) [0x00007FF6F11F7AEF]
+	(No symbol) [0x00007FF6F1220169]
+	(No symbol) [0x00007FF6F11F7883]
+	(No symbol) [0x00007FF6F11C0550]
+	(No symbol) [0x00007FF6F11C1803]
+	GetHandleVerifier [0x00007FF6F16D72DD+3529853]
+	GetHandleVerifier [0x00007FF6F16EDA42+3621858]
+	GetHandleVerifier [0x00007FF6F16E24F3+3575443]
+	GetHandleVerifier [0x00007FF6F144B79A+860474]
+	(No symbol) [0x00007FF6F12F08AF]
+	(No symbol) [0x00007FF6F12ECBE4]
+	(No symbol) [0x00007FF6F12ECD86]
+	(No symbol) [0x00007FF6F12DC2E9]
+	BaseThreadInitThunk [0x00007FFA187DE8D7+23]
+	RtlUserThreadStart [0x00007FFA1921BF6C+44]
+
+2025-03-21 18:29:37,484 - INFO - Browser session ended.
+2025-03-21 18:32:22,137 - INFO - Navigating to URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+2025-03-21 18:32:25,619 - INFO - Entering credentials: username=Admind
+2025-03-21 18:32:25,619 - INFO - Typing text 'Admind' into element with locator: ('name', 'username')
+2025-03-21 18:32:26,199 - INFO - Typing text 'admin123' into element with locator: ('name', 'password')
+2025-03-21 18:32:26,278 - INFO - Clicking element with locator: ('class name', 'orangehrm-login-button')
+2025-03-21 18:32:26,404 - INFO - Successfully entered credentials.
+2025-03-21 18:32:29,412 - ERROR - Error verifying dashboard: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//h6[normalize-space()='Dashboard']"}
+  (Session info: chrome=134.0.6998.118); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF6F137FE65+26629]
+	(No symbol) [0x00007FF6F12E6030]
+	(No symbol) [0x00007FF6F117931A]
+	(No symbol) [0x00007FF6F11CF8E7]
+	(No symbol) [0x00007FF6F11CFB1C]
+	(No symbol) [0x00007FF6F12234A7]
+	(No symbol) [0x00007FF6F11F7AEF]
+	(No symbol) [0x00007FF6F1220169]
+	(No symbol) [0x00007FF6F11F7883]
+	(No symbol) [0x00007FF6F11C0550]
+	(No symbol) [0x00007FF6F11C1803]
+	GetHandleVerifier [0x00007FF6F16D72DD+3529853]
+	GetHandleVerifier [0x00007FF6F16EDA42+3621858]
+	GetHandleVerifier [0x00007FF6F16E24F3+3575443]
+	GetHandleVerifier [0x00007FF6F144B79A+860474]
+	(No symbol) [0x00007FF6F12F08AF]
+	(No symbol) [0x00007FF6F12ECBE4]
+	(No symbol) [0x00007FF6F12ECD86]
+	(No symbol) [0x00007FF6F12DC2E9]
+	BaseThreadInitThunk [0x00007FFA187DE8D7+23]
+	RtlUserThreadStart [0x00007FFA1921BF6C+44]
+
+2025-03-21 18:32:31,659 - INFO - Browser session ended.

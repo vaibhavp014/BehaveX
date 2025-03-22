@@ -1,0 +1,44 @@
+name: CI for BehaveX Framework
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: windows-latest  # Use Windows since you have Windows-specific packages
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.8
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m venv .venv
+          .venv\Scripts\activate
+          pip install -r requirements.txt
+
+      # Step 4: Run tests
+      - name: Run Behave tests
+        run: |
+          .venv\Scripts\activate
+          python runner.py
+
+      # Step 5: Upload logs and reports (optional)
+      - name: Upload Allure results
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-results
+          path: reports/allure-results

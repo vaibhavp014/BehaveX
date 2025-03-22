@@ -45,7 +45,7 @@ if __name__ == "__main__":
     generate_allure_report()
 
 
-# Define the path to the features folder
+# Define the path to the features folders
 # features_path = "features"  # Adjust this if your features are in a subdirectory
 
 # def run_behave():

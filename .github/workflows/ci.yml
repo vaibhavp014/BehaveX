@@ -36,7 +36,7 @@ jobs:
           .venv\Scripts\activate
           python runner.py
 
-      # Step 5: Upload logs and reports (opt)
+      # Step 5: Upload logs and reports (option)
       - name: Upload Allure results
         uses: actions/upload-artifact@v3
         with:

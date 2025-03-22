@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: windows-latest  # Use Windows since you have Windows-specific packages
+    runs-on: windows-latest  # Use Windows since you have Windows-specific packagess
 
     steps:
       # Step 1: Checkout the repository

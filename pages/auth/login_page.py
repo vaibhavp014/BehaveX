@@ -14,7 +14,13 @@ class LoginPage(BasePage):
         self.type(self.PASSWORD_FIELD, password)
         self.click(self.LOGIN_BUTTON)
 
-    #optional method
+    def get_error_message(self):
+        return self.driver.find_element(By.XPATH, "//p[normalize-space()='Invalid credentials']").text
+
+    def click_login(self):
+        self.click(self.LOGIN_BUTTON)
+
+        #optional method
     # def is_dashboard_displayed(self):
     #     """Check if the dashboard element is displayed."""
     #     dashboard_element = self.driver.find_element(*self.DASHBOARD_ELEMENT)

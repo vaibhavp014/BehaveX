@@ -42,6 +42,35 @@ def step_impl(context):
         logger.info("Browser session ended.")
     # attach(context.driver.get_screenshot_as_png(), name="Dashboard Screenshot", attachment_type="image/png")
 
+@when("the user enters a valid username and an incorrect password")
+def step_user_enters_invalid_password(context):
+    for row in context.table:
+        context.login_page.enter_credentials(row["Username"], row["Password"])
+    time.sleep(3)
+    logger.info("Entered invalid credentials")
+
+
+@when("the user clicks the login button")
+def step_click_login_button(context):
+    context.login_page.click_login()
+    logger.info("Clicked login button")
+
+@then("the user should see an error message \"Invalid credentials\"")
+def step_verify_error_message(context):
+    try:
+        error_message = context.login_page.get_error_message()
+        assert "Invalid credendfdftials" in error_message, "Error message not found!"
+        logger.info("Error message displayed correctly")
+    except Exception as e:
+        logger.error("Error verifying message: %s", str(e))
+        raise
+    finally:
+        context.driver.quit()
+        logger.info("Browser session ended.")
+
+
+
+
 
 #optional for minimal logging
 # @when("the user enters valid credentials")
